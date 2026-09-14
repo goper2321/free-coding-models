@@ -1,7 +1,7 @@
 {
   "_meta": {
     "schemaVersion": 1,
-    "lastUpdated": "2026-09-05",
+    "lastUpdated": "2026-09-14",
     "source": "models.dev (auto) + curated (manual)",
     "notes": "Curated seed dataset for ~30 well-known models. Refreshed by scripts/update-benchmarks.mjs before each release. Fields with null are not yet measured."
   },
@@ -2000,6 +2000,21 @@
     "originalModel": "Gemma 4 E2B IT",
     "source": "models.dev"
   },
+  "google/gemma-3-4b-it": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 131072,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Gemma 3 4B IT",
+    "source": "models.dev"
+  },
   "google/gemini-3.5-transcribe-live": {
     "codingIndex": null,
     "mathIndex": null,
@@ -2298,6 +2313,21 @@
     "supportsVision": true,
     "lastUpdated": "2026-07-27",
     "originalModel": "Veo 3.1 Fast Preview",
+    "source": "models.dev"
+  },
+  "google/gemma-3-27b-it": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 131072,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Gemma 3 27B IT",
     "source": "models.dev"
   },
   "google/gemini-embedding-001": {
@@ -2600,6 +2630,21 @@
     "originalModel": "Gemini 2.5 Flash",
     "source": "models.dev"
   },
+  "google/gemma-3-12b-it": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 131072,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Gemma 3 12B IT",
+    "source": "models.dev"
+  },
   "thinkingmachines/inkling-small": {
     "codingIndex": null,
     "mathIndex": null,
@@ -2810,6 +2855,21 @@
     "originalModel": "Llama-3.2-11B-Vision-Instruct",
     "source": "models.dev"
   },
+  "meta/llama-3.1-70b-instruct": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 128000,
+    "supportsReasoning": false,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Llama-3.1-70B-Instruct",
+    "source": "models.dev"
+  },
   "meta/llama-3.3-70b-instruct": {
     "codingIndex": null,
     "mathIndex": null,
@@ -3003,6 +3063,36 @@
     "supportsVision": true,
     "lastUpdated": "2026-09-05",
     "originalModel": "Seed Character",
+    "source": "models.dev"
+  },
+  "writer/palmyra-x5": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 1000000,
+    "supportsReasoning": true,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Palmyra X5",
+    "source": "models.dev"
+  },
+  "writer/palmyra-x4": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 128000,
+    "supportsReasoning": true,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Palmyra X4",
     "source": "models.dev"
   },
   "zhipuai/glm-4.7": {
@@ -3365,6 +3455,21 @@
     "originalModel": "MiniCPM5-1B",
     "source": "models.dev"
   },
+  "deepseek/deepseek-v4-flash-0423": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 1000000,
+    "supportsReasoning": true,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "DeepSeek V4 Flash 0423",
+    "source": "models.dev"
+  },
   "deepseek/deepseek-v4-flash-vision-exp": {
     "codingIndex": null,
     "mathIndex": null,
@@ -3453,6 +3558,21 @@
     "supportsVision": false,
     "lastUpdated": "2026-07-27",
     "originalModel": "DeepSeek Reasoner",
+    "source": "models.dev"
+  },
+  "deepseek/deepseek-v4.1-flash": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 1000000,
+    "supportsReasoning": true,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "DeepSeek V4.1 Flash",
     "source": "models.dev"
   },
   "deepseek/deepseek-r1": {
@@ -3588,6 +3708,81 @@
     "supportsVision": false,
     "lastUpdated": "2026-09-05",
     "originalModel": "DeepSeek-V3.1",
+    "source": "models.dev"
+  },
+  "amazon/nova-2-lite": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 1000000,
+    "supportsReasoning": true,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Nova 2 Lite",
+    "source": "models.dev"
+  },
+  "amazon/nova-micro": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 128000,
+    "supportsReasoning": false,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Nova Micro",
+    "source": "models.dev"
+  },
+  "amazon/nova-lite": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 300000,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Nova Lite",
+    "source": "models.dev"
+  },
+  "amazon/nova-premier": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 1000000,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Nova Premier",
+    "source": "models.dev"
+  },
+  "amazon/nova-pro": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 300000,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Nova Pro",
     "source": "models.dev"
   },
   "trendyol/asure-12b": {
@@ -3918,6 +4113,21 @@
     "supportsVision": true,
     "lastUpdated": "2026-07-27",
     "originalModel": "GPT-4 Turbo",
+    "source": "models.dev"
+  },
+  "openai/gpt-oss-safeguard-20b": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 131072,
+    "supportsReasoning": true,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "GPT OSS Safeguard 20B",
     "source": "models.dev"
   },
   "openai/gpt-5.1": {
@@ -5075,6 +5285,21 @@
     "originalModel": "Grok Build 0.1",
     "source": "models.dev"
   },
+  "xai/grok-4.1-fast-reasoning": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 2000000,
+    "supportsReasoning": true,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Grok 4.1 Fast (Reasoning)",
+    "source": "models.dev"
+  },
   "xai/grok-imagine-video-1.5": {
     "codingIndex": null,
     "mathIndex": null,
@@ -5180,6 +5405,36 @@
     "originalModel": "Codestral-22B-v0.1",
     "source": "models.dev"
   },
+  "mistral/ministral-3b": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 128000,
+    "supportsReasoning": false,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Ministral 3B",
+    "source": "models.dev"
+  },
+  "mistral/ministral-3-14b-instruct-2512": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 262144,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Ministral 3 14B",
+    "source": "models.dev"
+  },
   "mistral/devstral-small-2507": {
     "codingIndex": null,
     "mathIndex": null,
@@ -5223,6 +5478,21 @@
     "supportsVision": false,
     "lastUpdated": "2026-07-27",
     "originalModel": "Devstral 2",
+    "source": "models.dev"
+  },
+  "mistral/devstral-small-2": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 262144,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Devstral Small 2",
     "source": "models.dev"
   },
   "mistral/magistral-medium-latest": {
@@ -5283,6 +5553,21 @@
     "supportsVision": true,
     "lastUpdated": "2026-07-27",
     "originalModel": "Mistral Medium 3.5",
+    "source": "models.dev"
+  },
+  "mistral/voxtral-mini-3b-2507": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 32768,
+    "supportsReasoning": false,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Voxtral Mini 3B 2507",
     "source": "models.dev"
   },
   "mistral/mistral-large-2512": {
@@ -5360,6 +5645,21 @@
     "originalModel": "Mistral Small (latest)",
     "source": "models.dev"
   },
+  "mistral/pixtral-large-2502": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 128000,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Pixtral Large (25.02)",
+    "source": "models.dev"
+  },
   "mistral/mistral-large-latest": {
     "codingIndex": null,
     "mathIndex": null,
@@ -5375,6 +5675,36 @@
     "originalModel": "Mistral Large (latest)",
     "source": "models.dev"
   },
+  "mistral/ministral-3-8b-instruct-2512": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 262144,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Ministral 3 8B",
+    "source": "models.dev"
+  },
+  "mistral/ministral-3-3b-instruct-2512": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 262144,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Ministral 3 3B",
+    "source": "models.dev"
+  },
   "mistral/mistral-large-2411": {
     "codingIndex": null,
     "mathIndex": null,
@@ -5388,6 +5718,21 @@
     "supportsVision": false,
     "lastUpdated": "2026-07-27",
     "originalModel": "Mistral Large 2.1",
+    "source": "models.dev"
+  },
+  "mistral/ministral-14b": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 262144,
+    "supportsReasoning": false,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Ministral 14B",
     "source": "models.dev"
   },
   "mistral/mistral-small-2603": {
@@ -5435,6 +5780,21 @@
     "originalModel": "Mistral Medium 3",
     "source": "models.dev"
   },
+  "mistral/voxtral-small-24b-2507": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 32768,
+    "supportsReasoning": false,
+    "supportsVision": false,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Voxtral Small 24B 2507",
+    "source": "models.dev"
+  },
   "mistral/codestral-latest": {
     "codingIndex": null,
     "mathIndex": null,
@@ -5448,6 +5808,21 @@
     "supportsVision": false,
     "lastUpdated": "2026-07-27",
     "originalModel": "Codestral (latest)",
+    "source": "models.dev"
+  },
+  "mistral/magistral-small-2509": {
+    "codingIndex": null,
+    "mathIndex": null,
+    "agenticIndex": null,
+    "reasoningIndex": null,
+    "mmluPro": null,
+    "gpqa": null,
+    "hle": null,
+    "contextWindow": 131072,
+    "supportsReasoning": true,
+    "supportsVision": true,
+    "lastUpdated": "2026-09-14",
+    "originalModel": "Magistral Small 1.2",
     "source": "models.dev"
   },
   "mistral/magistral-small-2506": {
